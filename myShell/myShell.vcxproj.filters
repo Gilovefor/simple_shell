@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f3ceb019-9bf1-467e-84d0-c49bab9948fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="head">
+      <UniqueIdentifier>{be904ea3-c696-4a4c-a74b-f2b4c0704301}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="loop.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="execute.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="builtins.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="launch,c.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shell.h">
+      <Filter>head</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
